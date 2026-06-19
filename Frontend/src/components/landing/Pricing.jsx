@@ -2,7 +2,7 @@ const freeFeats = ["Unlimited problems", "Full SM-2 scheduling", "Auto company t
 const proFeats = ["All free features", "Activity heatmap", "Full retention analytics","Company-wise sheets"];
 
 const Pricing = () => (
-  <section id="pricing" className="py-24 bg-[#F8F4EF] px-[6vw]">
+  <section id="pricing" className="py-24 bg-background px-[6vw]">
     <div className="text-center mb-14">
       <div className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.1em] uppercase text-[#D97757] mb-3">
         <span className="w-[18px] h-[1.5px] bg-[#D97757] rounded" />
@@ -18,7 +18,7 @@ const Pricing = () => (
       {/* Free */}
       <div className="bg-[#F2EDE5] border border-[#E4DDD5] rounded-[20px] p-8">
         <div className="text-[11px] font-semibold tracking-[.08em] uppercase text-[#7A736A] mb-3">Free</div>
-        <div className="font-serif italic text-[2.8rem] leading-none mb-1">₹0</div>
+        <div className="font-serif italic text-black text-[2.8rem] leading-none mb-1">₹0</div>
         <div className="text-[12px] text-[#7A736A] mb-6">forever · no card needed</div>
         {freeFeats.map((f) => (
           <div key={f} className="flex items-center gap-2 text-[13px] text-[#7A736A] mb-2.5">
