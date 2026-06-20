@@ -6,6 +6,7 @@ import './App.css'
 import App from "./App";
 import { AuthProvider } from "./context/AuthContext";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <GoogleOAuthProvider
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                     position="top-right"
                     richColors
                 /> 
+                <Analytics/>
             </AuthProvider>
         </BrowserRouter>
     </GoogleOAuthProvider>
