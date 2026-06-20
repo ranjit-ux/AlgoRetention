@@ -12,7 +12,7 @@ const DashboardHero = ({ stats }) => {
   const subLine =
     dueToday === 0
       ? "All caught up! Great job staying consistent."
-      : `You have ${dueToday} revision${dueToday > 1 ? "s" : ""} due — let's knock them out.`;
+      : `You have ${dueToday} revision${dueToday > 1 ? "s" : ""} due let's knock them out.`;
 
   return (
     <section className="relative bg-white border border-[#E4DDD5] rounded-[24px] p-8 mb-6 overflow-hidden">
