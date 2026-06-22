@@ -75,7 +75,7 @@ const Home = () => {
 
       <Comparison />
 
-      <Pricing />
+      {/* <Pricing /> */}
 
       <FAQ />
 
