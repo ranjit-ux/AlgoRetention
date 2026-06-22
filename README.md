@@ -14,8 +14,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Production-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Users-50+-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Problems_Tracked-100+-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Users-100+-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Problems_Tracked-250+-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Companies_Mapped-300+-purple?style=flat-square" />
 </p>
 
