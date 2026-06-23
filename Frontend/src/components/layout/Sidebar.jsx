@@ -2,7 +2,7 @@ import React from 'react'
 import { LayoutDashboard, BookOpen,RefreshCw, BarChart3, Settings, LogOut } from 'lucide-react'
 
 import { NavLink, useNavigate } from 'react-router-dom'
-
+import { useAuth } from '@/context/AuthContext';
 const Sidebar = () => {
   const navItems = [
     {
@@ -33,10 +33,10 @@ const Sidebar = () => {
   ];
 
   const navigate = useNavigate();
+  const {logout} = useAuth();
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
-    localStorage.removeItem("user");
+    logout();
 
     navigate("/");
   }
