@@ -15,7 +15,7 @@ const good = [
 ];
 
 const Comparison = () => (
-  <section id="comparison" className="py-24 bg-white px-[6vw]">
+  <section id="comparison" className="py-24 bg-card px-[6vw]">
     <div className="text-center mb-14">
       <div className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.1em] uppercase text-[#D97757] mb-3">
         <span className="w-[18px] h-[1.5px] bg-[#D97757] rounded" />
