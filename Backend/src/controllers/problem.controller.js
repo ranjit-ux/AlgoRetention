@@ -125,7 +125,7 @@ export const getProblems = async (req, res) => {
     try {
         const {
             page=1,
-            limit=20,
+            limit=200,
             search,
             difficulty,
             topic,
