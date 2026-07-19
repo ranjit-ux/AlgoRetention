@@ -15,8 +15,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Production-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Users-200+-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Problems_Tracked-300+-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Companies_Mapped-300+-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/Problems_Tracked-500+-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Companies_Mapped-400+-purple?style=flat-square" />
 </p>
 
 <p align="center">
@@ -306,7 +306,9 @@ GOOGLE_CLIENT_ID=
 
 **Ranjit Kumar Singh**
 <br>
-Electronics & Communication Engineering, National Institute of Technology Bhopal
+Electronics & Communication Engineering
+<br>
+National Institute of Technology Bhopal
 
 [GitHub](https://github.com/ranjit-ux) · [LinkedIn](https://www.linkedin.com/in/ranjit-kumar-singh/) · [Website](https://ranjitkumarsingh.in/)
 
