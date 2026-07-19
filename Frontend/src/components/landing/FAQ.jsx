@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const faqs = [
-  { q: "How is this different from keeping a spreadsheet?", a: "A spreadsheet is passive you decide when to review. SM-2 calculates the mathematically optimal interval after each review. It's the difference between guessing and knowing exactly when memory fades." },
-  { q: "How long does the daily review take?", a: "Most users spend 15–25 minutes. The algorithm only surfaces what you're about to forget not everything at once. The stronger your recall, the longer reviews get pushed out." },
-  { q: "Do I need to be on LeetCode?", a: "No. AlgoRetention is platform-agnostic. Log problems from LeetCode, Codeforces, HackerRank — anywhere. Just add the name, link, and your notes." },
-  { q: "What does the retention score actually measure?", a: "It estimates how much of your problem library you could reproduce right now under exam conditions accounting for time since last review and your historical recall ratings." },
-  { q: "Will this help for OA rounds, not just interviews?", a: "Yes. Consistent pattern recognition from spaced repetition directly improves OA speed and accuracy. Patterns you've internalized fire instantly you're not reconstructing them from scratch." },
+  { q: "How is this different from keeping a spreadsheet?", a: "A spreadsheet is passive, you decide when to review, and that decision is usually a guess. AlgoRetention uses the SM-2 spaced repetition algorithm to calculate the mathematically optimal moment to revisit each problem, right before you'd forget it. It's the difference between guessing and knowing." },
+  { q: "How long does the daily review take?", a: "Most users spend 15–25 minutes a day. The algorithm only surfaces problems you're close to forgetting, not your entire library at once. As your recall on a topic strengthens, those reviews get pushed further out automatically." },
+  { q: "Do I need to be on LeetCode?", a: "Not at all. AlgoRetention is platform-agnostic log problems from LeetCode, Codeforces, HackerRank, GeeksforGeeks, or anywhere else. Just add the name, a link, and your notes, and it's part of your review cycle." },
+  { q: "What does the retention score actually measure?", a: "It estimates how much of your problem library you could reproduce right now under OA or interview conditions accounting for time since last review and your historical recall ratings." },
+  { q: "Will this help for OA rounds, or just interviews?", a: "Both. Consistent pattern recognition from spaced repetition directly improves OA speed and accuracy. Patterns you've internalized fire instantly you're not reconstructing them from scratch." },
   { q: "Is AlgoRetention free?", a: "Yes all core features are free right now with no credit card required. A Pro plan with some more features  is coming soon." },
 ];
 

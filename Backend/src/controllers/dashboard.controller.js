@@ -54,7 +54,7 @@ export const getDashboardData = async (
                 .sort({
                     nextRevisionDate: 1,
                 })
-                .limit(20)
+                .limit(100)
                 .select(
                     `
                     title

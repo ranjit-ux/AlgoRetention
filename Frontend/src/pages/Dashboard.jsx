@@ -7,6 +7,7 @@ import DueTodayList from "@/components/dashboard/DueTodayList";
 import RecentProblems from "@/components/dashboard/RecentProblems";
 import TopicBreakdown from "@/components/dashboard/TopicBreakdown";
 import QuickActions from "@/components/dashboard/QuickActions";
+import SupportCard from "@/components/dashboard/SupportCard";
 
 const Dashboard = () => {
   const [stats, setStats] = useState(null);
@@ -20,7 +21,7 @@ const Dashboard = () => {
       try {
         const data = await getDashboardData();
         setStats(data.stats ?? null);
-        setDueProblems(data.dueProblems ?? []);
+        setDueProblems(data.todayQueue ?? []);
         setRecentProblems(data.recentProblems ?? []);
         setRetentionHistory(data.retentionHistory ?? []);
       } catch (e) {
@@ -61,7 +62,8 @@ const Dashboard = () => {
         {/* Right sidebar */}
         <div>
           <DueTodayList problems={dueProblems} />
-          <QuickActions />
+          {/* <QuickActions /> */}
+          <SupportCard/>
         </div>
 
       </div>
