@@ -13,7 +13,7 @@ const FAQ = () => {
   const [open, setOpen] = useState(null);
 
   return (
-    <section id="faq" className="py-24 bg-[#F8F4EF] px-[6vw]">
+    <section id="faq" className="py-24 bg-background px-[6vw]">
       <div className="grid md:grid-cols-[1fr_2fr] gap-24">
         {/* Left */}
         <div>
@@ -32,17 +32,17 @@ const FAQ = () => {
         {/* Right */}
         <div>
           {faqs.map((faq, i) => (
-            <div key={i} className="border-b border-[#EDE7DF]">
+            <div key={i} className="border-b border-border">
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="w-full flex items-center justify-between text-left py-5 bg-transparent border-none font-sans text-[.875rem] font-medium text-[#1A1714] hover:text-[#D97757] transition-colors gap-4"
+                className="w-full flex items-center justify-between text-left py-5 bg-transparent border-none font-sans text-[.875rem] font-medium text-foreground hover:text-[#D97757] transition-colors gap-4"
               >
                 <span>{faq.q}</span>
                 <span
                   className={`w-[22px] h-[22px] rounded-full flex items-center justify-center flex-shrink-0 text-[12px] border transition-all duration-200
                     ${open === i
                       ? "rotate-180 bg-[#FDF1EB] border-[#F3C4AE] text-[#D97757]"
-                      : "bg-[#F2EDE5] border-[#E4DDD5] text-[#7A736A]"
+                      : "bg-[#F2EDE5] border-border text-[#7A736A]"
                     }`}
                 >
                   ▾

@@ -49,7 +49,7 @@ const Features = () => {
   }, []);
 
   return (
-    <section id="features" className="py-24 bg-[#F8F4EF] px-[6vw]">
+    <section id="features" className="py-24 bg-background px-[6vw]">
       <div className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.1em] uppercase text-[#D97757] mb-3">
         <span className="w-[18px] h-[1.5px] bg-[#D97757] rounded" />
         Core features
@@ -69,7 +69,7 @@ const Features = () => {
             {scheduleData.map((s) => (
               <div key={s.name} className="flex items-center gap-2.5 mb-2.5">
                 <span className="text-[11.5px] text-[#7A736A] w-[90px] flex-shrink-0 font-medium">{s.name}</span>
-                <div className="flex-1 bg-[#F8F4EF] rounded-full h-[7px] overflow-hidden">
+                <div className="flex-1 bg-background rounded-full h-[7px] overflow-hidden">
                   <div className="h-full rounded-full bg-[#D97757]" style={{ width: s.width }} />
                 </div>
                 <span className={`text-[11px] w-9 text-right flex-shrink-0 ${s.highlight ? "text-[#D97757] font-semibold" : "text-[#7A736A]"}`}>
